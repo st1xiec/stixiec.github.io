@@ -1,0 +1,44 @@
+content {
+	flex-direction: column;
+}
+
+.section {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.section > .title {
+	font-size: 2.3em;
+	margin-bottom: 64px;
+} 
+
+.subsection > .title {
+	margin-bottom: 36px;
+}
+
+.webstack-container {
+	min-width: 950px;
+}
+
+.subsection {
+	font-family: Roboto Condensed,Source Sans Pro,Calibri,Arial,sans-serif;
+	background-color: rgba(0,0,0,.2);
+	padding: 16px 8px 16px 32px;
+	min-width: 390px;
+}
+
+.webstack > div {
+	display: flex;
+	justify-content: space-around;
+}
+
+#frontend { border-left-color: #42eeff; }
+#backend { border-left-color: #f72020; }
+#skills { border-left-color: #1cfc7e; }
+
+.webstack .subsection > .title {
+	text-transform: uppercase;
+	margin-top: 36px;
+	text-align: center;
+	font-size: 1.5em;
+}

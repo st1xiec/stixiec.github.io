@@ -1,0 +1,70 @@
+@media only screen and (max-width: 900px) {
+	html, body {
+		min-width: unset;
+	}
+	main {
+		font-size: 14px;
+	}
+	header {
+		display: none;
+		justify-content: center;
+	}
+	.navbar {
+		display: none;
+	}
+	.container {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.webstack > * {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.card {
+		box-shadow: unset;
+		border: unset;
+	}
+	.card:hover {
+		box-shadow: unset;
+	}
+	footer {
+		margin-top: 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 20px;
+	}
+	.links {
+		order: unset;
+		margin: unset;
+		margin-top: 30px;
+	}
+	.webstack-container {
+		min-width: unset;
+	}
+	.section {
+		margin-top: 80px;
+	}
+	.subsection {
+		min-width: unset;
+	}
+	.section .title {
+		margin-bottom: 10px; 
+	}
+	.webstack .subsection {
+		margin-bottom: 12px;
+	}
+	.skills .card {
+		border-left: 2px solid #1cfc7e;
+	}
+	#frontend .title { 
+		color: #42eeff;
+		margin-top: unset;
+		 
+	}
+	#backend .title { 
+		color: #f72020; 
+		margin-top: unset; 
+	}
+}
